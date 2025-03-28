@@ -47,11 +47,30 @@
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
 
-        p {
-            font-size: 1.2rem;
+        .typing-container {
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem auto;
+        }
+
+        .typing-text {
+            color: white;
+            font-size: 1.5rem;
             line-height: 1.6;
             max-width: 800px;
-            margin: 0 auto 2rem;
+            margin: 0 auto;
+            border-right: 3px solid #00B4FF;
+            padding-right: 5px;
+            white-space: pre-wrap;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .typing-text {
+                font-size: 1.2rem;
+            }
         }
 
         .color-palette {
@@ -78,7 +97,10 @@
 <body>
     <div class="container">
         <h1>Solve</h1>
-        <p>Somos uma empresa que impulsiona o desenvolvimento do mercado tecnológico regional através de soluções de automação de processos.</p>
+        
+        <div class="typing-container">
+            <div id="typing" class="typing-text"></div>
+        </div>
         
         <div class="color-palette">
             <div class="color-box" style="background-color: #000000;">#000000</div>
@@ -88,5 +110,28 @@
             <div class="color-box" style="background-color: #EF14FF;">#EF14FF</div>
         </div>
     </div>
+
+    <script>
+        const text = "Somos uma empresa que impulsiona o desenvolvimento do mercado tecnológico regional através de soluções de automação de processos.";
+        const typingElement = document.getElementById('typing');
+        let i = 0;
+        const speed = 30; // Velocidade da digitação em milissegundos
+
+        function typeWriter() {
+            if (i < text.length) {
+                typingElement.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            } else {
+                // Piscar o cursor após terminar
+                setInterval(() => {
+                    typingElement.style.borderRightColor = typingElement.style.borderRightColor === 'transparent' ? '#00B4FF' : 'transparent';
+                }, 500);
+            }
+        }
+
+        // Iniciar a animação quando a página carregar
+        window.onload = typeWriter;
+    </script>
 </body>
 </html>
