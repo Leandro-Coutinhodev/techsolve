@@ -61,15 +61,17 @@
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
-            border-right: 3px solid #00B4FF;
-            padding-right: 5px;
+            border-right: 2px solid #00B4FF; /* Largura reduzida do cursor */
+            padding-right: 3px; /* Espaço reduzido */
             white-space: pre-wrap;
             text-align: center;
+            height: 1.6em; /* Altura baseada no line-height */
         }
 
         @media (max-width: 768px) {
             .typing-text {
                 font-size: 1.2rem;
+                border-right: 1px solid #00B4FF; /* Cursor ainda mais fino em mobile */
             }
         }
 
@@ -115,7 +117,7 @@
         const text = "Somos uma empresa que impulsiona o desenvolvimento do mercado tecnológico regional através de soluções de automação de processos.";
         const typingElement = document.getElementById('typing');
         let i = 0;
-        const speed = 30; // Velocidade da digitação em milissegundos
+        const speed = 30;
 
         function typeWriter() {
             if (i < text.length) {
@@ -123,14 +125,12 @@
                 i++;
                 setTimeout(typeWriter, speed);
             } else {
-                // Piscar o cursor após terminar
                 setInterval(() => {
                     typingElement.style.borderRightColor = typingElement.style.borderRightColor === 'transparent' ? '#00B4FF' : 'transparent';
                 }, 500);
             }
         }
 
-        // Iniciar a animação quando a página carregar
         window.onload = typeWriter;
     </script>
 </body>
