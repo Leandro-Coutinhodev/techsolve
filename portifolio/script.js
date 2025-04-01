@@ -46,7 +46,7 @@ const menuItems = [
         description: "Garrafa de 500ml",
         price: 5.00,
         category: "bebida",
-        image: "https://www.google.com/imgres?q=agua%20mineral&imgurl=https%3A%2F%2Fdrogariamoderna.vtexassets.com%2Farquivos%2Fids%2F251997-800-auto%3Fv%3D638151218022670000%26width%3D800%26height%3Dauto%26aspect%3Dtrue&imgrefurl=https%3A%2F%2Fwww.drogariamoderna.com.br%2Fagua-crystal-s-gas-15ml-587745%2Fp&docid=ZB64n9tdwk7EkM&tbnid=kbePi0zonV7OiM&vet=12ahUKEwiH4eSK7baMAxXFBLkGHU-uKgsQM3oECBcQAA..i&w=800&h=800&hcb=2&ved=2ahUKEwiH4eSK7baMAxXFBLkGHU-uKgsQM3oECBcQAA"
+        image: "https://www.google.com/imgres?q=agua%20mineral%20500ml%20imagem&imgurl=https%3A%2F%2Fcovabra.vtexassets.com%2Farquivos%2Fids%2F247600%2F33612.jpg%3Fv%3D638741160927530000&imgrefurl=https%3A%2F%2Fwww.covabra.com.br%2Fagua-mineral-crystal-sem-gas-500ml%2Fp&docid=k52VzER8X-EczM&tbnid=VvJauts729QNpM&vet=12ahUKEwjAgJKr7raMAxWDpJUCHTcqLAsQM3oECEMQAA..i&w=780&h=780&hcb=2&ved=2ahUKEwjAgJKr7raMAxWDpJUCHTcqLAsQM3oECEMQAA"
     },
     {
         id: 7,
