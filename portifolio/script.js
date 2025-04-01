@@ -46,7 +46,7 @@ const menuItems = [
         description: "Garrafa de 500ml",
         price: 5.00,
         category: "bebida",
-        image: "https://m.media-amazon.com/images/I/51YgsOefeBL._AC_SL1000_.jpg"
+        image: "https://images-na.ssl-images-amazon.com/images/I/515KHJNOC1L._AC_UL165_SR165,165_.jpg"
     },
     {
         id: 7,
@@ -87,7 +87,7 @@ const menuItems = [
         description: "Prato tradicional com feijão preto, linguiça, carne seca e acompanhamentos",
         price: 45.90,
         category: "principal",
-        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/478862923/pt/foto/brasileiro-feijoada-feij%C3%B5es.webp?s=2048x2048&w=is&k=20&c=YHhpw-euBuBiLIG5bVr5QcBvsjysPy8tdY5ltoKW0Ik="
     },
     {
         id: 12,
