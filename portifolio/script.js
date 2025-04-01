@@ -46,7 +46,7 @@ const menuItems = [
         description: "Garrafa de 500ml",
         price: 5.00,
         category: "bebida",
-        image: "https://www.google.com/imgres?q=agua%20mineral%20500ml%20imagem&imgurl=https%3A%2F%2Fcovabra.vtexassets.com%2Farquivos%2Fids%2F247600%2F33612.jpg%3Fv%3D638741160927530000&imgrefurl=https%3A%2F%2Fwww.covabra.com.br%2Fagua-mineral-crystal-sem-gas-500ml%2Fp&docid=k52VzER8X-EczM&tbnid=VvJauts729QNpM&vet=12ahUKEwjAgJKr7raMAxWDpJUCHTcqLAsQM3oECEMQAA..i&w=780&h=780&hcb=2&ved=2ahUKEwjAgJKr7raMAxWDpJUCHTcqLAsQM3oECEMQAA"
+        image: "https://m.media-amazon.com/images/I/51YgsOefeBL._AC_SL1000_.jpg"
     },
     {
         id: 7,
