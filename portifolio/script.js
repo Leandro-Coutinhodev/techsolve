@@ -1,164 +1,165 @@
 // Dados do cardápio
 const menuItems = [
-    // {
-    //     id: 1,
-    //     name: "Bruschetta",
-    //     description: "Pão italiano torrado com tomate fresco, manjericão e azeite",
-    //     price: 18.90,
-    //     category: "entrada",
-    //     image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 2,
-    //     name: "Carpaccio",
-    //     description: "Finas fatias de carne crua com rúcula, parmesão e molho de mostarda",
-    //     price: 32.50,
-    //     category: "entrada",
-    //     image: "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 3,
-    //     name: "Filé Mignon",
-    //     description: "Filé mignon grelhado, acompanha batatas rústicas e legumes",
-    //     price: 68.90,
-    //     category: "principal",
-    //     image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 4,
-    //     name: "Risoto de Cogumelos",
-    //     description: "Risoto cremoso com cogumelos frescos e parmesão",
-    //     price: 42.90,
-    //     category: "principal",
-    //     image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 5,
-    //     name: "Salmão Grelhado",
-    //     description: "Salmão grelhado com molho de maracujá e arroz de açafrão",
-    //     price: 58.50,
-    //     category: "principal",
-    //     image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 6,
-    //     name: "Água Mineral",
-    //     description: "Garrafa de 500ml",
-    //     price: 5.00,
-    //     category: "bebida",
-    //     image: "https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 7,
-    //     name: "Refrigerante",
-    //     description: "Lata 350ml - Escolha o sabor",
-    //     price: 6.50,
-    //     category: "bebida",
-    //     image: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 8,
-    //     name: "Suco Natural",
-    //     description: "Copo 300ml - Laranja, abacaxi ou maracujá",
-    //     price: 8.90,
-    //     category: "bebida",
-    //     image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 9,
-    //     name: "Tiramisu",
-    //     description: "Sobremesa italiana com café, mascarpone e biscoitos",
-    //     price: 22.90,
-    //     category: "sobremesa",
-    //     image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // },
-    // {
-    //     id: 10,
-    //     name: "Petit Gateau",
-    //     description: "Bolo de chocolate com recheio cremoso e sorvete",
-    //     price: 25.50,
-    //     category: "sobremesa",
-    //     image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    // }
     {
-        "id": 1,
-        "name": "Pão de Queijo",
-        "description": "Deliciosos pãezinhos de queijo crocantes por fora e macios por dentro",
-        "price": 14.90,
-        "category": "entrada",
-        "image": "https://images.unsplash.com/photo-1598373182136-ade6c58017d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 1,
+        name: "Bruschetta",
+        description: "Pão italiano torrado com tomate fresco, manjericão e azeite",
+        price: 18.90,
+        category: "entrada",
+        image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 2,
-        "name": "Bolinho de Bacalhau",
-        "description": "Tradicional bolinho de bacalhau frito, crocante por fora e macio por dentro",
-        "price": 29.90,
-        "category": "entrada",
-        "image": "https://images.unsplash.com/photo-1550617931-e17a7e80c2f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 2,
+        name: "Carpaccio",
+        description: "Finas fatias de carne crua com rúcula, parmesão e molho de mostarda",
+        price: 32.50,
+        category: "entrada",
+        image: "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 3,
-        "name": "Feijoada Completa",
-        "description": "Feijão preto com carnes suínas, arroz, couve refogada, laranja e farofa",
-        "price": 54.90,
-        "category": "principal",
-        "image": "https://images.unsplash.com/photo-1587452202170-018d3c1630f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 3,
+        name: "Filé Mignon",
+        description: "Filé mignon grelhado, acompanha batatas rústicas e legumes",
+        price: 68.90,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 4,
-        "name": "Picanha na Chapa",
-        "description": "Suculenta picanha grelhada, servida com arroz, feijão tropeiro e mandioca frita",
-        "price": 79.90,
-        "category": "principal",
-        "image": "https://images.unsplash.com/photo-1608032076980-bd67ed48b4de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 4,
+        name: "Risoto de Cogumelos",
+        description: "Risoto cremoso com cogumelos frescos e parmesão",
+        price: 42.90,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 5,
-        "name": "Moqueca de Peixe",
-        "description": "Peixe cozido com leite de coco, azeite de dendê, tomate, pimentão e coentro",
-        "price": 62.50,
-        "category": "principal",
-        "image": "https://images.unsplash.com/photo-1627309301744-dfdcf0c45dd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 5,
+        name: "Salmão Grelhado",
+        description: "Salmão grelhado com molho de maracujá e arroz de açafrão",
+        price: 58.50,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 6,
-        "name": "Guaraná",
-        "description": "Refrigerante típico brasileiro, lata 350ml",
-        "price": 7.50,
-        "category": "bebida",
-        "image": "https://images.unsplash.com/photo-1600185365927-3d5b70a5ce65?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 6,
+        name: "Água Mineral",
+        description: "Garrafa de 500ml",
+        price: 5.00,
+        category: "bebida",
+        image: "https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 7,
-        "name": "Caipirinha",
-        "description": "Cachaça, limão, açúcar e gelo",
-        "price": 18.90,
-        "category": "bebida",
-        "image": "https://images.unsplash.com/photo-1592211982444-28530f22d1fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 7,
+        name: "Refrigerante",
+        description: "Lata 350ml - Escolha o sabor",
+        price: 6.50,
+        category: "bebida",
+        image: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 8,
-        "name": "Suco de Açaí",
-        "description": "Suco natural de açaí batido com banana e guaraná",
-        "price": 12.90,
-        "category": "bebida",
-        "image": "https://images.unsplash.com/photo-1525059337994-6f2a1311b4d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 8,
+        name: "Suco Natural",
+        description: "Copo 300ml - Laranja, abacaxi ou maracujá",
+        price: 8.90,
+        category: "bebida",
+        image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 9,
-        "name": "Pudim de Leite",
-        "description": "Pudim cremoso de leite condensado com calda de caramelo",
-        "price": 19.90,
-        "category": "sobremesa",
-        "image": "https://images.unsplash.com/photo-1592233448407-08fcb6b6f7d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 9,
+        name: "Tiramisu",
+        description: "Sobremesa italiana com café, mascarpone e biscoitos",
+        price: 22.90,
+        category: "sobremesa",
+        image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
-        "id": 10,
-        "name": "Brigadeiro Gourmet",
-        "description": "Clássico brigadeiro brasileiro feito com chocolate belga",
-        "price": 9.90,
-        "category": "sobremesa",
-        "image": "https://images.unsplash.com/photo-1600891964091-35b37ab84b4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        id: 10,
+        name: "Petit Gateau",
+        description: "Bolo de chocolate com recheio cremoso e sorvete",
+        price: 25.50,
+        category: "sobremesa",
+        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+    
+        id: 11,
+        name: "Feijoada",
+        description: "Prato tradicional com feijão preto, linguiça, carne seca e acompanhamentos",
+        price: 45.90,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 12,
+        name: "Moqueca de Camarão",
+        description: "Camarões cozidos no dendê com pimentões, tomate e leite de coco",
+        price: 62.50,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946cf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 13,
+        name: "Pão de Queijo",
+        description: "Deliciosos pãezinhos de queijo mineiro, crocantes por fora e macios por dentro",
+        price: 12.90,
+        category: "entrada",
+        image: "https://images.unsplash.com/photo-1600711724564-526eda91ac29?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 14,
+        name: "Acarajé",
+        description: "Bolinho de feijão-fradinho frito no dendê, recheado com vatapá e camarão",
+        price: 28.90,
+        category: "entrada",
+        image: "https://images.unsplash.com/photo-1632503052227-f059d6e9a2dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 15,
+        name: "Churrasco",
+        description: "Variedade de cortes de carne assados na brasa, acompanha farofa e vinagrete",
+        price: 75.00,
+        category: "principal",
+        image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 16,
+        name: "Caipirinha",
+        description: "Bebida típica com cachaça, limão, açúcar e gelo",
+        price: 18.50,
+        category: "bebida",
+        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 17,
+        name: "Guaraná Antarctica",
+        description: "Refrigerante brasileiro sabor guaraná - Lata 350ml",
+        price: 7.50,
+        category: "bebida",
+        image: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 18,
+        name: "Brigadeiro",
+        description: "Doce tradicional de chocolate em pó e leite condensado",
+        price: 9.90,
+        category: "sobremesa",
+        image: "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 19,
+        name: "Quindim",
+        description: "Sobremesa de origem portuguesa com coco, gemas e açúcar",
+        price: 14.50,
+        category: "sobremesa",
+        image: "https://images.unsplash.com/photo-1632240491577-4f9435030e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 20,
+        name: "Coxinha",
+        description: "Salgado em forma de gota com massa de batata e recheio de frango",
+        price: 8.90,
+        category: "entrada",
+        image: "https://images.unsplash.com/photo-1625943555419-56a2cb596640?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     }
 ];
 
