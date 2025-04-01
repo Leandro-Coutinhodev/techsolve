@@ -95,7 +95,7 @@ const menuItems = [
         description: "Camarões cozidos no dendê com pimentões, tomate e leite de coco",
         price: 62.50,
         category: "principal",
-        image: "https://images.unsplash.com/photo-1631452180519-c014fe946cf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/177316016/pt/foto/camar%C3%A3o-grelhado-e-peixe.webp?s=2048x2048&w=is&k=20&c=6H71l1lYUNckFSQFyhrBwkrUIqkWygN4BWNzv3J0oUw="
     },
     {
         id: 13,
@@ -103,7 +103,7 @@ const menuItems = [
         description: "Deliciosos pãezinhos de queijo mineiro, crocantes por fora e macios por dentro",
         price: 12.90,
         category: "entrada",
-        image: "https://images.unsplash.com/photo-1600711724564-526eda91ac29?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/1338504327/pt/foto/detail-of-cheese-bread-on-concrete-table-photographed-in-studio.webp?s=2048x2048&w=is&k=20&c=NyglLVO4KZBxStqK6ngwCISYfSyGyFTOgA_Ej4wYFaQ="
     },
     {
         id: 14,
@@ -111,7 +111,7 @@ const menuItems = [
         description: "Bolinho de feijão-fradinho frito no dendê, recheado com vatapá e camarão",
         price: 28.90,
         category: "entrada",
-        image: "https://images.unsplash.com/photo-1632503052227-f059d6e9a2dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/1771699447/pt/foto/acaraje-dumpling-made-with-black-eyed-pea-dough-shrimp-onion-and-salt-and-fried-in-palm-oil.webp?s=2048x2048&w=is&k=20&c=LrocTape14l_5L-8dHURTzC8AuiDEkLNM2Gzz_oGPYM="
     },
     {
         id: 15,
@@ -135,7 +135,7 @@ const menuItems = [
         description: "Refrigerante brasileiro sabor guaraná - Lata 350ml",
         price: 7.50,
         category: "bebida",
-        image: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://cdn.pixabay.com/photo/2021/04/23/06/35/soda-6200841_960_720.jpg"
     },
     {
         id: 18,
@@ -143,23 +143,15 @@ const menuItems = [
         description: "Doce tradicional de chocolate em pó e leite condensado",
         price: 9.90,
         category: "sobremesa",
-        image: "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/1219796818/pt/foto/chocolate-easter-egg-filled-with-brigadeiro.webp?s=2048x2048&w=is&k=20&c=TbjxVOWnS3MLMfPqqNR-J9EjGniMmTOk8kdzSSLlLvY="
     },
     {
         id: 19,
-        name: "Quindim",
-        description: "Sobremesa de origem portuguesa com coco, gemas e açúcar",
-        price: 14.50,
-        category: "sobremesa",
-        image: "https://images.unsplash.com/photo-1632240491577-4f9435030e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-    },
-    {
-        id: 20,
         name: "Coxinha",
         description: "Salgado em forma de gota com massa de batata e recheio de frango",
         price: 8.90,
         category: "entrada",
-        image: "https://images.unsplash.com/photo-1625943555419-56a2cb596640?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+        image: "https://media.istockphoto.com/id/1358848345/pt/foto/traditional-fried-coxinha-on-a-black-plate-on-a-slate-background-brazilian-snack.webp?s=2048x2048&w=is&k=20&c=i7PQjoXNiDKa8HNLqN3HVCWKjcyQp3ZBRvnp7XMdhsM="
     }
 ];
 
