@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-utensils"></i> Restaurante Sabores</h1>
+            <p>Experimente os melhores sabores da região</p>
+        </header>
+
+        <div class="progress-steps">
+            <div class="step active" id="step1">
+                <span>1</span>
+                <p>Cardápio</p>
+            </div>
+            <div class="step" id="step2">
+                <span>2</span>
+                <p>Seu Pedido</p>
+            </div>
+            <div class="step" id="step3">
+                <span>3</span>
+                <p>Pagamento</p>
+            </div>
+            <div class="step" id="step4">
+                <span>4</span>
+                <p>Confirmação</p>
+            </div>
+        </div>
+
+        <main>
+            <!-- Seção do Cardápio -->
+            <section id="cardapio-section" class="active-section">
+                <h2>Nosso Cardápio</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-category="all">Todos</button>
+                    <button class="filter-btn" data-category="entrada">Entradas</button>
+                    <button class="filter-btn" data-category="principal">Pratos Principais</button>
+                    <button class="filter-btn" data-category="bebida">Bebidas</button>
+                    <button class="filter-btn" data-category="sobremesa">Sobremesas</button>
+                </div>
+                <div class="menu-items" id="menu-items">
+                    <!-- Itens do cardápio serão inseridos aqui via JavaScript -->
+                </div>
+                <button id="ver-pedido-btn" class="btn-primary">Ver Meu Pedido</button>
+            </section>
+
+            <!-- Seção do Pedido -->
+            <section id="pedido-section">
+                <h2>Seu Pedido</h2>
+                <div class="order-summary">
+                    <div id="order-items">
+                        <!-- Itens selecionados serão mostrados aqui -->
+                    </div>
+                    <div class="order-total">
+                        <p>Total: <span id="total-value">R$ 0,00</span></p>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button id="voltar-cardapio-btn" class="btn-secondary">Voltar ao Cardápio</button>
+                    <button id="finalizar-pedido-btn" class="btn-primary">Finalizar Pedido</button>
+                </div>
+            </section>
+
+            <!-- Seção de Pagamento -->
+            <section id="pagamento-section">
+                <h2>Forma de Pagamento</h2>
+                <div class="payment-options">
+                    <div class="payment-method" data-method="dinheiro">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <p>Dinheiro</p>
+                    </div>
+                    <div class="payment-method" data-method="cartao">
+                        <i class="fas fa-credit-card"></i>
+                        <p>Cartão</p>
+                    </div>
+                    <div class="payment-method" data-method="pix">
+                        <i class="fas fa-qrcode"></i>
+                        <p>PIX</p>
+                    </div>
+                </div>
+
+                <div id="pix-details" class="hidden">
+                    <h3>Pagamento via PIX</h3>
+                    <div class="pix-info">
+                        <div class="pix-qr">
+                            <img src="images/qr-code-pix.png" alt="QR Code PIX">
+                            <p>Escaneie o QR Code acima</p>
+                        </div>
+                        <div class="pix-key">
+                            <p>Ou copie a chave PIX:</p>
+                            <div class="pix-key-box">
+                                <span id="pix-key">123e4567-e12b-12d1-a456-426655440000</span>
+                                <button id="copy-pix-btn"><i class="fas fa-copy"></i> Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="pix-warning">O pagamento via PIX é processado instantaneamente. Após o pagamento, seu pedido será confirmado automaticamente.</p>
+                </div>
+
+                <div id="troco-section" class="hidden">
+                    <h3>Pagamento em Dinheiro</h3>
+                    <label for="troco-input">Valor recebido (para cálculo de troco):</label>
+                    <input type="number" id="troco-input" min="0" step="0.01" placeholder="Digite o valor recebido">
+                    <p id="troco-result">Troco: R$ 0,00</p>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="voltar-pedido-btn" class="btn-secondary">Voltar ao Pedido</button>
+                    <button id="confirmar-pagamento-btn" class="btn-primary">Confirmar Pagamento</button>
+                </div>
+            </section>
+
+            <!-- Seção de Confirmação -->
+            <section id="confirmacao-section">
+                <div class="confirmation-box">
+                    <i class="fas fa-check-circle"></i>
+                    <h2>Pedido Confirmado!</h2>
+                    <p id="confirmation-message">Seu pedido foi recebido e está sendo preparado. Obrigado por escolher o Restaurante Sabores!</p>
+                    <div id="order-details">
+                        <!-- Detalhes do pedido serão mostrados aqui -->
+                    </div>
+                    <button id="novo-pedido-btn" class="btn-primary">Fazer Novo Pedido</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Restaurante Sabores &copy; 2023 - Todos os direitos reservados</p>
+            <p><i class="fas fa-phone"></i> (11) 1234-5678 | <i class="fas fa-map-marker-alt"></i> Rua dos Sabores, 123 - Centro</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
